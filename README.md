@@ -1,41 +1,17 @@
 # Çılgın Müzisyenler
 
-The Crazy Musicians API is a simple ASP.NET Core Web API that supports basic CRUD (Create, Read, Update, Delete) operations for managing a collection of fun and entertaining musicians. The API includes various endpoints for interacting with musician data, ensuring data validation and structured routing.
+This RESTful API app has basic REST functionalities like giving information about the musicians, updating the information, or deleting.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
+Functionalities:
+GET: Get all musicians or search for musicians by name.
+POST: Add a new musician to the collection.
+PATCH: Update specific fields of an existing musician.
+PUT: Replace an entire musician record.
+DELETE: Remove a musician from the collection.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+* .NET 8.0
+* Linq
